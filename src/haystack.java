@@ -1,5 +1,5 @@
 public class haystack {
-    public static void main(String[] args) {
+    public static void main() {
         Object[] haystack1 = new Object[]{"283497238987234", "a dog", "a cat", "some random junk", "a piece of hay", "needle", "something somebody lost a while ago"};
         String needlePos = findNeedle(haystack1);
         System.out.println(needlePos);
@@ -17,3 +17,5 @@ public class haystack {
         return "Needle found at position " + position;
     }
 }
+
+//Somethings not right on this one

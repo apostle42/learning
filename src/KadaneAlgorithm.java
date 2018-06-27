@@ -1,7 +1,5 @@
-
-
-public class KadaneAlgorithm {
-    public static void main(String[] args) {
+public class KadaneAlgorithm{
+    public static void main() {
         System.out.println(sequence(new int[]{-2, 1, -3, 4, -1, 2, 1, -5, 4}));
         System.out.println(KadaneAlgorithm2.sum(new int[]{-2, 2, -3, 4, -1, -2, 1, -5, 4}));
 

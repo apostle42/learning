@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Arrays;
 
 public class sumOfPositives {
     public static void main(String[] args) {
